@@ -36,13 +36,10 @@ class Spider():
             'Accept - Encoding': 'gzip, deflate',
             'Accept - Language': 'zh - CN, zh;q = 0.9',
             'Connection': 'keep - alive',
-            'Cookie': 'BDTUJIAID=dc90cafd408d37c78de89f72542474ec; 360doc12=f2a23fb1fbd95d5449a9dc8a61592547; 360docnft1=1;'
-                      ' 360docnft2=1; LoginName=joeldoc; 360doc6=1; 360docAccountYD=1; 360doc13_55483800=1; 360doc14_55483800=1; '
-                      'car=0; 360doc4_55483800=392130,747519478,749137860; 360docsn=7W4IMHSBKPLPI1H6; Hm_lvt_d86954201130d6151362'
-                      '57dde062a503=1526101474; Hm_lpvt_d86954201130d615136257dde062a503=1526101474',
+            'Cookie': 'your cookie',
             'Host': 'www.360doc.com',
             'Referer': 'http://www.360doc.com/index.html',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+            'User-Agent': 'your user-agent',
             'X - Requested - With': 'XMLHttpRequest'
         }
         proxies = [
