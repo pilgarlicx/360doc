@@ -110,7 +110,7 @@ class Spider():
     def toSave(self,start_url,i):
         page = i
         item = self.getContent(start_url,i)
-        client = pymongo.MongoClient(host = 'localhost',port=27017)
+        client = pymongo.MongoClient(host = 'localhost',port=port)
         db = client['360doc']
         text = db['360doc Reading experience'+str(page)]
         text.insert(item)
